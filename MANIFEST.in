@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include requirements.txt
+include freelancerfly_bot/config/*.json
+recursive-exclude freelancerfly_bot/logs *
+recursive-exclude freelancerfly_bot/proofs *
+recursive-exclude freelancerfly_bot/profiles *
+recursive-exclude freelancerfly_bot/cache *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod]
+recursive-exclude * *.so
+recursive-exclude * .DS_Store
+recursive-exclude * Thumbs.db
