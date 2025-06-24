@@ -1,0 +1,23 @@
+[
+  {
+    "email": "saf.roze37@gmail.com",
+    "password": "ronaldo3",
+    "max_tasks": 50,
+    "headless": true,
+    "proxy_index": 0
+  },
+  {
+    "email": "sa.froze37@gmail.com",
+    "password": "ronaldo2",
+    "max_tasks": 50,
+    "headless": true,
+    "proxy_index": 1
+  },
+  {
+    "email": "sadunmaznun@gmail.com",
+    "password": "sadun123",
+    "max_tasks": 50,
+    "headless": false,
+    "proxy_index": 2
+  }
+]

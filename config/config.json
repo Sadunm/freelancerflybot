@@ -1,0 +1,70 @@
+{
+  "general": {
+    "headless": true,
+    "max_tasks_per_account": 0,
+    "account_switch_delay": 30,
+    "task_execution_delay": 5,
+    "browser_restart_interval": 3600
+  },
+  "resource_limits": {
+    "cpu_threshold": 85,
+    "ram_threshold": 80,
+    "check_interval": 60
+  },
+  "earnings": {
+    "min_reward": 0.10,
+    "max_failures": 3
+  },
+  "timing": {
+    "youtube_watch_multiplier": 1.3,
+    "telegram_stay_time": 15,
+    "visit_browse_time": 20,
+    "search_read_time": 15
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": false,
+      "token": "",
+      "chat_id": ""
+    },
+    "email": {
+      "enabled": false,
+      "smtp_server": "",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "from_email": "",
+      "to_email": ""
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "freelancerfly_bot/logs/bot.log"
+  },
+  "proxy": {
+    "enabled": false,
+    "rotation_strategy": "least_used"
+  },
+  "stealth": {
+    "enabled": true,
+    "canvas_noise": true,
+    "webgl_noise": true,
+    "audio_noise": true,
+    "font_noise": true,
+    "timezone_spoofing": true,
+    "language_spoofing": true,
+    "webdriver_detection_evasion": true
+  },
+  "concurrency": {
+    "max_concurrent_accounts": 3,
+    "max_concurrent_tasks_per_account": 1
+  },
+  "task_priorities": {
+    "youtube": 1,
+    "telegram": 2,
+    "signup": 3,
+    "search": 4,
+    "visit": 5,
+    "unknown": 6
+  }
+}

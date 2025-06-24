@@ -1,0 +1,2 @@
+[console_scripts]
+freelancerfly-bot = freelancerfly_bot.main:main

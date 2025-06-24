@@ -1,0 +1,62 @@
+{
+  "youtube": [
+    "youtube",
+    "watch",
+    "video",
+    "subscribe",
+    "channel",
+    "like",
+    "comment",
+    "view",
+    "youtube.com",
+    "youtu.be"
+  ],
+  "telegram": [
+    "telegram",
+    "join",
+    "group",
+    "channel",
+    "t.me",
+    "chat",
+    "telegram.org",
+    "telegram.me",
+    "tg",
+    "message"
+  ],
+  "signup": [
+    "signup",
+    "sign up",
+    "register",
+    "create account",
+    "join",
+    "registration",
+    "sign in",
+    "create",
+    "account",
+    "email"
+  ],
+  "search": [
+    "search",
+    "google",
+    "bing",
+    "find",
+    "query",
+    "look up",
+    "search for",
+    "yahoo",
+    "duckduckgo",
+    "browser"
+  ],
+  "visit": [
+    "visit",
+    "website",
+    "page",
+    "browse",
+    "click",
+    "link",
+    "open",
+    "site",
+    "url",
+    "web"
+  ]
+}
