@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  freelancerfly_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: freelancerfly_bot
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+      - ./proofs:/app/proofs
+    environment:
+      - TZ=UTC
+    restart: unless-stopped
+    command: --config config/config.json --accounts config/accounts.json --proxies config/proxies.json --headless --log-level INFO
+    shm_size: 2gb  # Increase shared memory for Firefox
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '0.5'
+          memory: 1G
